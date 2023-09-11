@@ -1,6 +1,6 @@
 body{
     max-width: 1440px;
-    width: 100%;
+    /* width: 100%; */
     padding: 48px 80px;
     font-family:Arial, Helvetica, sans-serif;
     margin-left:auto;
@@ -79,7 +79,7 @@ header{
 }
 
 .card{
-    width:406px;
+    max-width:406px;
     height:400px;
     margin-top:90px;
     margin-bottom:90px;
@@ -94,7 +94,7 @@ h3{
 }
 
 .card img{
-    width:406px;
+    max-width:406px;
     height:400px;
     object-fit:cover;
 }
@@ -105,7 +105,7 @@ h3{
     align-items:center;
 }
 .name img{
-    width: 62px;
+    max-width: 62px;
     height: 28px;
 }
 
@@ -124,7 +124,7 @@ h3{
 }
 
 .price img{
-    width: 20px;
+    max-width: 20px;
     height: 18px;
 }
 
